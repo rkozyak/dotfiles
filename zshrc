@@ -11,7 +11,6 @@ plugins=(
 
 # Minimal Theme
 MNML_PROMPT=(mnml_ssh mnml_status mnml_keymap)
-MNML_PROMPT=(mnml_status mnml_keymap)
 MNML_RPROMPT=('mnml_cwd 2 0' mnml_git)
 MNML_MAGICENTER=()
 MNML_INFOLN=()
