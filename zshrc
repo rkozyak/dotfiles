@@ -41,8 +41,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=250"
 bindkey '\t' autosuggest-accept
 
 # Zoxide (smarter cd)
-eval "$(zoxide init zsh)"
-alias cd="z"
+eval "$(zoxide init zsh --cmd cd)"
 
 # Eza (better ls)
 alias ls='eza --icons --git'
